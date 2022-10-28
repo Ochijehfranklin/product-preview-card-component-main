@@ -4,11 +4,11 @@
 body{
     background-color: hsl(30, 38%, 92%);
     overflow: hidden;
+    min-height: 100vh;
+    place-content: center;
 }
 .container{
     padding: 10px;
-  /*  border: 10px solid black;
-   margin: 80px;*/
    margin: 80px 80px 80px 400px;
     display: flex;
     flex-direction: row;
